@@ -1,6 +1,6 @@
 # Pense Como um Cientista de Dados
 
-Este repositório contém os notebooks e exemplos práticos do livro **"Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária"**, que aborda técnicas de **machine learning** aplicadas ao mundo dos negócios.
+Este repositório contém os notebooks e exemplos práticos do livro **"Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária: Casos Práticos no Mundo dos Negócios"**, que aborda técnicas de **machine learning** aplicadas ao mundo dos negócios.
 
 ## Visão Geral
 
@@ -58,8 +58,11 @@ Este repositório contém:
 
 <img src="./images/capa_final.png" alt="Capa do Livro" width="75%" />
 
-Este repositório contém os exemplos práticos e *notebooks* que acompanham o livro "Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária no Mundo dos Negócios".
+Este repositório contém os exemplos práticos e *notebooks* que acompanham o livro "Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária: Casos Práticos no Mundo dos Negócios".
 
 Se você deseja aprofundar seus conhecimentos e entender como aplicar esses conceitos a problemas reais, o livro está disponível para compra na **Amazon Kindle**. Ele oferece uma visão completa e didática sobre o uso de modelos de árvore e técnicas de otimização, com foco na resolução de desafios empresariais.
+
+### Caso em Destaque: Detecção de Fraude em Transações Financeiras
+Um dos pontos altos do livro é o estudo de caso sobre **detecção de fraude em transações financeiras**, inspirado em uma competição do [Kaggle](https://www.kaggle.com/c/ieee-fraud-detection/discussion/111284). Neste capítulo, mostramos como adaptar técnicas de **Otimização Bayesiana** e **Modelos de Árvore** para resolver um problema real enfrentado por empresas que lidam com milhões de transações diárias. O caso aborda desde o pré-processamento dos dados até a interpretação de modelos com **valores SHAP**, proporcionando uma solução prática, eficaz e explicável para a detecção de fraudes.
 
 [Adquira o livro na Amazon Kindle](#).
