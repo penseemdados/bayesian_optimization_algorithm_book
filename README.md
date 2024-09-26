@@ -56,7 +56,8 @@ Este repositório contém:
 
 ## Disponibilidade do Livro
 
-Este repositório contém os exemplos práticos e notebooks relacionados ao livro **"Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária no Mundo dos Negócios"**. O livro está disponível para compra na [Amazon Kindle](https://www.amazon.com.br).
+Este repositório contém os exemplos práticos e *notebooks* que acompanham o livro "Pense Como um Cientista de Dados: Modelos de Árvore e Otimização Bayesiana para Classificação Binária no Mundo dos Negócios".
 
-[Compre o livro na Amazon Kindle](https://www.amazon.com.br).
+Se você deseja aprofundar seus conhecimentos e entender como aplicar esses conceitos a problemas reais, o livro está disponível para compra na **Amazon Kindle**. Ele oferece uma visão completa e didática sobre o uso de modelos de árvore e técnicas de otimização, com foco na resolução de desafios empresariais.
 
+[Adquira o livro na Amazon Kindle](#).
