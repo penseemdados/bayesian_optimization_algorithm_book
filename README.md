@@ -49,11 +49,11 @@ Este repositório contém:
  ┃ ┣ 📜cap_05_churn_telecon_dataset.ipynb
  ┃ ┣ 📜cap_06_modelo_1_ieee_credit_fraud_2.ipynb
  ┃ ┣ 📜cap_06_modelo_2_bayes_credit_fraud_subamostra.ipynb
- ┃ ┗ 📜cap_06_modelo_final_otimizado_credit_fraud.ipynb
+ ┃ ┗ 📜cap_07_modelo_final_otimizado_credit_fraud.ipynb
+ ┣ 📜images
  ┣ 📜README.md
  ┗ 📜LICENSE
 ```
-
 ## Disponibilidade do Livro
 
 <img src="./images/capa_final.png" alt="Capa do Livro" width="75%" />
