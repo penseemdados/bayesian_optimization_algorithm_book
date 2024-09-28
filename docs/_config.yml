@@ -1,0 +1,15 @@
+title: "Pense Como um Cientista de Dados"
+email: "penseemdados@gmail.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  Este site acompanha o livro "Pense como um Cientista de Dados" e contém
+  os exemplos e notebooks utilizados no livro.
+baseurl: "/bayesian_optimization_algorithm_book"
+url: "https://penseemdados.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: penseemdados
+github_username:  penseemdados
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
