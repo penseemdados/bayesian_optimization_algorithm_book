@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Capitulo 01 | Pense Como um Cientista de Dados</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Capitulo 01" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Aqui, vamos mergulhar no algoritmo que deu origem a toda essa aventura. Sim, estamos falando daquele artigo com título complicado: “Optimized Ensemble Learning Approach with Explainable AI for Improved Heart Disease Prediction”, publicado em junho de 2024. Embora não seja um assunto trivial, com um pouco de esforço e dedicação, você verá que é perfeitamente compreensível e, mais importante, aplicável a problemas reais de negócios." />
+<meta property="og:description" content="Aqui, vamos mergulhar no algoritmo que deu origem a toda essa aventura. Sim, estamos falando daquele artigo com título complicado: “Optimized Ensemble Learning Approach with Explainable AI for Improved Heart Disease Prediction”, publicado em junho de 2024. Embora não seja um assunto trivial, com um pouco de esforço e dedicação, você verá que é perfeitamente compreensível e, mais importante, aplicável a problemas reais de negócios." />
+<link rel="canonical" href="http://localhost:4000/2024/09/25/capitulo-01.html" />
+<meta property="og:url" content="http://localhost:4000/2024/09/25/capitulo-01.html" />
+<meta property="og:site_name" content="Pense Como um Cientista de Dados" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-09-25T00:00:00-03:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Capitulo 01" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-25T00:00:00-03:00","datePublished":"2024-09-25T00:00:00-03:00","description":"Aqui, vamos mergulhar no algoritmo que deu origem a toda essa aventura. Sim, estamos falando daquele artigo com título complicado: “Optimized Ensemble Learning Approach with Explainable AI for Improved Heart Disease Prediction”, publicado em junho de 2024. Embora não seja um assunto trivial, com um pouco de esforço e dedicação, você verá que é perfeitamente compreensível e, mais importante, aplicável a problemas reais de negócios.","headline":"Capitulo 01","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2024/09/25/capitulo-01.html"},"url":"http://localhost:4000/2024/09/25/capitulo-01.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Pense Como um Cientista de Dados" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Pense Como um Cientista de Dados</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="home"><h1 class="page-heading">Capitulo 01</h1><p>Aqui, vamos mergulhar no algoritmo que deu origem a toda essa aventura. Sim, estamos falando daquele artigo com título complicado: “Optimized Ensemble Learning Approach with Explainable AI for Improved Heart Disease Prediction”, publicado em junho de 2024. Embora não seja um assunto trivial, com um pouco de esforço e dedicação, você verá que é perfeitamente compreensível e, mais importante, aplicável a problemas reais de negócios.</p>
+
+<h2 id="entendendo-o-contexto">Entendendo o Contexto</h2>
+<p>O artigo aborda um problema altamente relevante: a previsão de doenças cardíacas usando aprendizado de máquina. Os autores propõem uma abordagem inovadora, que combina modelos de <strong>ensemble</strong> otimizados com técnicas de interpretabilidade, com o objetivo não apenas de melhorar a precisão, mas também de entender os fatores que mais influenciam as previsões. Ou seja, não basta saber se uma pessoa tem uma doença cardíaca, é fundamental entender o “porquê” por trás dessa previsão.</p>
+
+<p>E por que isso é importante? Porque, seja na saúde, nos negócios ou em qualquer outro contexto, as previsões baseadas em dados precisam ser confiáveis e explicáveis. E essa combinação de alta performance e interpretabilidade não só melhora os resultados, mas também garante confiança nas decisões, seja por parte de médicos, gestores ou clientes.</p>
+
+<h2 id="o-fluxo-do-algoritmo">O Fluxo do Algoritmo</h2>
+<p>Vamos entender, de forma simplificada, como o algoritmo dos autores funciona e qual o papel de cada etapa no processo.</p>
+
+<h3 id="1-coleta-e-preparação-dos-dados">1. Coleta e Preparação dos Dados</h3>
+<p>Tudo começa com a obtenção e preparação dos dados. No caso do artigo, os autores usaram dados clínicos sobre doenças cardíacas. Mas os princípios de tratamento de dados são aplicáveis a qualquer contexto de negócios. As etapas incluem:</p>
+
+<ul>
+  <li>
+    <p><strong>Tratamento de valores ausentes</strong>: Dados faltantes podem comprometer a qualidade do modelo. Sejam substituídos pela média, moda ou outras técnicas, ou mesmo eliminados, isso precisa ser feito com cuidado.</p>
+  </li>
+  <li>
+    <p><strong>Codificação de variáveis categóricas</strong>: Muitos modelos de aprendizado de máquina só funcionam com dados numéricos, então variáveis categóricas precisam ser transformadas, com técnicas como <em>One-Hot Encoding</em>.</p>
+  </li>
+  <li>
+    <p><strong>Normalização ou padronização</strong>: Variáveis com escalas diferentes (como renda anual e idade) precisam ser ajustadas para facilitar o trabalho do algoritmo.</p>
+  </li>
+  <li>
+    <p><strong>Divisão dos dados</strong>: Sempre dividimos os dados em treinamento e teste para garantir que possamos avaliar o modelo com dados que ele ainda não viu.</p>
+  </li>
+  <li>
+    <p><strong>Balanceamento de classes</strong>: Quando as classes estão desbalanceadas (por exemplo, muito mais clientes inadimplentes do que adimplentes), técnicas como o <code class="language-plaintext highlighter-rouge">SMOTE</code> podem ser utilizadas para gerar amostras sintéticas da classe minoritária e garantir que o modelo seja treinado de forma equilibrada.</p>
+  </li>
+</ul>
+
+<h3 id="2-seleção-dos-modelos-de-ensemble">2. Seleção dos Modelos de <em>Ensemble</em></h3>
+<p>Os autores do artigo optaram por três modelos de <em>ensemble</em>, que são conhecidos por sua robustez e capacidade de reduzir o risco de <em>overfitting</em>:</p>
+
+<ul>
+  <li>
+    <p><strong>Random Forest</strong>: Um conjunto de várias árvores de decisão, construídas a partir de amostras aleatórias dos dados. Cada árvore contribui com uma previsão, e o modelo final toma uma “decisão coletiva”. Isso reduz a variação e melhora a precisão.</p>
+  </li>
+  <li>
+    <p><strong>AdaBoost</strong>: Este modelo ajusta várias iterações de classificadores simples, atribuindo mais peso aos exemplos mal classificados a cada nova rodada. Ele se “adapta” aos erros, ajustando-se para melhorar a precisão.</p>
+  </li>
+  <li>
+    <p><strong>XGBoost</strong>: Uma implementação otimizada de <em>Gradient Boosting</em>, que se destaca pela eficiência e pelo desempenho elevado. É amplamente utilizado em competições de <em>machine learning</em> devido à sua capacidade de lidar com grandes volumes de dados e produzir previsões precisas.</p>
+  </li>
+</ul>
+
+<h3 id="3-otimização-de-hiperparâmetros-com-otimização-bayesiana">3. Otimização de Hiperparâmetros com Otimização Bayesiana</h3>
+<p>A cereja do bolo nesta abordagem é a <strong>Otimização Bayesiana</strong>, que torna o processo de ajuste de hiperparâmetros mais inteligente. Em vez de usar o <em>grid search</em> tradicional, que testa várias combinações de parâmetros de forma exaustiva, a Otimização Bayesiana modela a função objetivo (neste caso, a AUC) e decide de forma eficiente quais conjuntos de parâmetros testar a seguir. Isso economiza tempo e recursos computacionais.</p>
+
+<h3 id="4-avaliação-e-seleção-do-modelo">4. Avaliação e Seleção do Modelo</h3>
+<p>Depois que os modelos são otimizados, eles são avaliados em métricas como:</p>
+
+<ul>
+  <li>
+    <p><strong>AUC (Área Sob a Curva ROC)</strong>: Mede a capacidade do modelo de distinguir entre classes positivas e negativas.</p>
+  </li>
+  <li>
+    <p><strong>F1-Score</strong>: A média harmônica entre precisão e recall, usada principalmente quando os dados estão desbalanceados.</p>
+  </li>
+  <li>
+    <p><strong>Precisão e Recall</strong>: Essas métricas medem a proporção de predições corretas e a capacidade do modelo de encontrar todas as instâncias da classe positiva.</p>
+  </li>
+</ul>
+
+<p>Os autores ajustaram o limiar de decisão (<em>threshold</em>) para otimizar as métricas de acordo com o contexto, um passo importante quando o equilíbrio entre precisão e recall é crucial.</p>
+
+<h3 id="5-interpretabilidade-com-valores-shap">5. Interpretabilidade com Valores SHAP</h3>
+<p>Uma vez escolhido o melhor modelo, os autores usaram os valores SHAP (<em>SHapley Additive ExPlanations</em>) para explicar as previsões. O SHAP nos ajuda a entender a importância de cada característica, atribuindo um valor específico para a contribuição de cada variável nas previsões do modelo.</p>
+
+<p>Por que isso é importante? Porque em muitos casos, como em diagnósticos médicos ou decisões empresariais, o “porquê” é tão importante quanto o resultado em si. Saber que uma variável como “pressão arterial” influenciou fortemente a decisão pode ser crucial para validar o resultado e tomar decisões informadas.</p>
+
+<h2 id="por-que-essa-abordagem-é-importante">Por Que Essa Abordagem É Importante?</h2>
+<p>Esse tipo de abordagem, que combina precisão com interpretabilidade, é crucial em muitos contextos. Modelos eficientes são ótimos, mas se você não souber explicar suas decisões, pode perder a confiança de seus <em>stakeholders</em>. Isso é especialmente relevante em setores como saúde e finanças, onde a transparência é uma exigência.</p>
+
+<p>Além disso, o uso da <strong>Otimização Bayesiana</strong> ajuda a economizar tempo e recursos, ajustando os modelos de maneira eficiente e inteligente. Isso significa menos horas gastas testando combinações de hiperparâmetros e mais tempo para analisar e melhorar os resultados.</p>
+
+<h2 id="adaptando-para-outros-contextos">Adaptando para Outros Contextos</h2>
+<p>Embora o foco do artigo seja a previsão de doenças cardíacas, os mesmos princípios podem ser aplicados em vários outros cenários de negócios:</p>
+
+<ul>
+  <li>
+    <p><strong>Análise de risco de crédito</strong>: Prever a probabilidade de inadimplência de clientes.</p>
+  </li>
+  <li>
+    <p><strong>Detecção de fraudes</strong>: Identificar transações suspeitas em tempo real.</p>
+  </li>
+  <li>
+    <p><strong>Previsão de <em>churn</em></strong>: Antecipar quais clientes estão propensos a abandonar o serviço.</p>
+  </li>
+  <li>
+    <p><strong>Classificação de <em>leads</em></strong>: Priorizar potenciais clientes com maior probabilidade de conversão.</p>
+  </li>
+</ul>
+
+<p>A estrutura do algoritmo permanece a mesma; o que muda são os dados e, possivelmente, algumas nuances no pré-processamento ou nas métricas de avaliação.</p>
+
+<h2 id="um-vislumbre-do-código">Um Vislumbre do Código</h2>
+<p>Para ilustrar como isso se traduz em código <strong>Python</strong>, vamos dar uma olhada em um esboço simplificado da implementação:</p>
+
+<pre><code class="language-{python}"># Importação das bibliotecas necessárias
+import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from skopt import BayesSearchCV
+import shap
+from sklearn.datasets import fetch_openml
+from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.preprocessing import StandardScaler
+import matplotlib.pyplot as plt
+
+# Carregamento e preparação dos dados com as_frame=False
+data = fetch_openml(name='heart', version=1, as_frame=False)
+
+# Definir os nomes das colunas conforme documentação do dataset
+feature_names = [
+    "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach", 
+    "exang", "oldpeak", "slope", "ca", "thal"
+]
+
+# Converta a matriz esparsa para uma matriz densa e crie o DataFrame
+X = pd.DataFrame(data.data.toarray(), columns=feature_names)  # Converte para DataFrame com os nomes corretos
+y = pd.Series(data.target)
+
+# Certifique-se de que a variável-alvo é binária (0 ou 1)
+y = np.where(y &gt; 0, 1, 0)  # Converte todas as classes maiores que 0 para 1
+
+# Divisão em treino e teste
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
+
+# Normalizar as variáveis numéricas
+# Ajuste para lidar com dados esparsos, com with_mean=False
+scaler = StandardScaler(with_mean=False)
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+# Definição do espaço de hiperparâmetros para o Random Forest
+param_space = {
+    'n_estimators': (10, 200),
+    'max_depth': (1, 20),
+    'min_samples_split': (2, 10)
+}
+
+# Otimização Bayesiana
+bayes_search = BayesSearchCV(
+    RandomForestClassifier(random_state=42),
+    param_space,
+    n_iter=100,
+    scoring='roc_auc',
+    cv=5,
+    n_jobs=-1,
+    random_state=42
+)
+
+# Ajuste do modelo
+bayes_search.fit(X_train, y_train)
+best_model = bayes_search.best_estimator_
+
+# Avaliação do modelo
+y_pred = best_model.predict(X_test)
+
+# Calcular a acurácia e exibir a matriz de confusão
+accuracy = accuracy_score(y_test, y_pred)
+cm = confusion_matrix(y_test, y_pred)
+
+print(f"Acurácia: {accuracy:.4f}")
+print("Matriz de Confusão:")
+print(cm)
+
+# Verifique se X_test é uma matriz densa
+X_test_dense = pd.DataFrame(X_test, columns=feature_names)
+
+# Interpretabilidade com SHAP
+explainer = shap.TreeExplainer(best_model)
+shap_values = explainer.shap_values(X_test_dense)
+
+# Pegando os valores SHAP apenas para a classe 1 (classe positiva)
+shap_values_class_1 = shap_values[:, :, 1]
+
+# Gerar o gráfico com os valores SHAP para a classe positiva
+shap.summary_plot(shap_values_class_1, X_test_dense, show=False)
+
+# Salvar o gráfico gerado em PNG
+#plt.savefig('shap_summary_plot.png', format='png', dpi=300)
+
+# Exibir o gráfico (se desejar vê-lo na tela também)
+plt.show()
+</code></pre>
+
+<p>Aqui, aplicamos a Otimização Bayesiana para encontrar os melhores hiperparâmetros para um modelo de <em>Random Forest</em> e usamos o SHAP para interpretar suas previsões.</p>
+
+<div style="text-align: center;">
+  <img src="/assets/images/shap_summary_plot_01-01.png" alt="Figura 1.1: Interpretabilidade com SHAP" style="width: 75%" />
+  <div style="font-style: italic; font-size: 0.95em;">1.1: Figura 1.1: Interpretabilidade com SHAP.</div>
+</div>
+<p><br /></p>
+
+<div style="text-align: center;">
+  <img src="/assets/images/roc_curve_01-02.png" alt="Figura 1.2: Curva ROC" style="width: 75%" />
+  <div style="font-style: italic; font-size: 0.95em;">1.2: Figura 1.2: Curva ROC.</div>
+</div>
+<p><br /></p>
+
+<div style="text-align: center;">
+  <img src="/assets/images/precisao_recall_curve_01-03.png" alt="Figura 1.3: Curva Precisão - Recall" style="width: 75%" />
+  <div style="font-style: italic; font-size: 0.95em;">1.3: Figura 1.3: Curva Precisão - Recall.</div>
+</div>
+<p><br /></p>
+
+<pre><code class="language-{python}">from sklearn.metrics import accuracy_score, confusion_matrix
+
+# Convertendo as probabilidades em classes binárias usando um threshold (por exemplo, 0.5)
+y_pred = (y_pred_proba &gt;= 0.5).astype(int)
+
+# Cálculo da acurácia
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Acurácia: {accuracy:.4f}")
+
+# Geração da matriz de confusão
+cm = confusion_matrix(y_test, y_pred)
+print("Matriz de Confusão:")
+print(cm)
+</code></pre>
+
+<pre><code class="language-{python}">Acurácia: 0.8642
+Matriz de Confusão:
+[[39  6]
+ [ 5 31]]
+</code></pre>
+
+<h2 id="comentando-as-figuras-e-resultados">Comentando as Figuras e Resultados</h2>
+
+<p>Para complementar nossa compreensão inicial, vamos dar uma olhada rápida nas figuras e nos resultados obtidos pelo modelo. Não se preocupe se alguns conceitos ainda não estiverem claros; nos próximos capítulos, iremos explorar cada um deles em detalhes.</p>
+
+<h3 id="figura-11-interpretabilidade-com-shap">Figura 1.1: Interpretabilidade com SHAP</h3>
+<p>A <strong>Figura 1.1</strong> apresenta um gráfico de resumo dos valores SHAP, que nos permite visualizar a importância de cada característica no modelo. As cores e posições dos pontos fornecem <em>insights</em> sobre como cada variável afeta as previsões. Embora não entremos em detalhes agora, este gráfico é fundamental para entender a interpretabilidade do modelo, e iremos explorá-lo aprofundadamente mais adiante.</p>
+
+<h3 id="figura-12-curva-roc">Figura 1.2: Curva ROC</h3>
+<p>A <strong>Figura 1.2</strong> mostra a Curva ROC (<em>Receiver Operating Characteristic</em>) do nosso modelo. Esta curva é uma ferramenta poderosa para avaliar a capacidade do modelo em distinguir entre as classes positivas e negativas em diferentes limiares de decisão. A proximidade da curva ao canto superior esquerdo indica um desempenho robusto. Nos capítulos futuros, iremos dissecar esta curva para entender completamente o que ela revela sobre a performance do modelo.</p>
+
+<h3 id="figura-13-curva-precisão---recall">Figura 1.3: Curva Precisão - Recall</h3>
+<p>A <strong>Figura 1.3</strong> apresenta a Curva Precisão-Recall, que é especialmente útil quando lidamos com conjuntos de dados desbalanceados. Esta curva nos ajuda a encontrar o equilíbrio ideal entre precisão e recall, permitindo otimizar o modelo de acordo com as necessidades específicas do negócio. Fique tranquilo, iremos explorar como interpretar e utilizar esta curva nos próximos capítulos.</p>
+
+<h3 id="resultados-de-desempenho-do-modelo">Resultados de Desempenho do Modelo</h3>
+<p>Além das visualizações geradas com SHAP e as curvas de ROC e Precisão-Recall, obtivemos métricas quantitativas que ajudam a avaliar o desempenho do modelo:</p>
+
+<ul>
+  <li>
+    <p><strong>Acurácia</strong>: 0.8642</p>
+  </li>
+  <li>
+    <p><strong>Matriz de Confusão</strong>:</p>
+  </li>
+</ul>
+
+<pre><code class="language-{python}">    [[ 39   6]
+     [  5 31]]
+</code></pre>
+
+<p>A acurácia indica que nosso modelo está correto em aproximadamente 86% das previsões, o que é um resultado promissor. A matriz de confusão nos fornece uma visão detalhada das classificações verdadeiras e falsas para cada classe:</p>
+
+<ul>
+  <li>
+    <p><strong>Verdadeiros Positivos (TP)</strong>: 39 casos em que o modelo previu positivamente e estava correto.</p>
+  </li>
+  <li>
+    <p><strong>Verdadeiros Negativos (TN)</strong>: 30 casos em que o modelo previu negativamente e estava correto.</p>
+  </li>
+  <li>
+    <p><strong>Falsos Positivos (FP)</strong>: 6 casos em que o modelo previu positivamente, mas estava incorreto.</p>
+  </li>
+  <li>
+    <p><strong>Falsos Negativos (FN)</strong>: 5 casos em que o modelo previu negativamente, mas estava incorreto.</p>
+  </li>
+</ul>
+
+<p>Este balanço entre TP, TN, FP e FN é crucial para entender as implicações práticas do modelo, especialmente em contextos onde os custos de falsos positivos e falsos negativos são diferentes. No decorrer do livro, iremos analisar profundamente estes resultados para extrair <em>insights</em> valiosos e aprimorar ainda mais o modelo.</p>
+
+<p>Este é apenas um esboço para dar uma ideia geral. Nos próximos capítulos, vamos aprofundar cada etapa, adicionando detalhes e explicações para que você possa replicar e adaptar a abordagem ao seu contexto específico.</p>
+
+<p>Neste capítulo, exploramos em detalhes o algoritmo proposto pelos autores do artigo que inspirou nossa jornada. Entendemos como a combinação de modelos de <em>ensemble</em> otimizados e interpretabilidade através de valores SHAP pode criar soluções poderosas e aplicáveis a diversos problemas de negócios.</p>
+
+<p>A chave aqui é a adaptabilidade. Embora o caso de uso original seja a previsão de doenças cardíacas, os princípios e técnicas podem ser aplicados a uma ampla gama de desafios. Compreender o fluxo do algoritmo e os motivos por trás de cada etapa nos prepara para colocar tudo isso em prática.</p>
+
+<p>No próximo capítulo, vamos arregaçar as mangas e mergulhar no código. Vamos apresentar a implementação completa, explicando cada linha em detalhes para que você possa entender não apenas o “como”, mas também o “porquê” de cada decisão.</p>
+
+<p>Prepare seu ambiente de desenvolvimento e até lá!</p>
+<h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list"><li><span class="post-meta">Sep 25, 2024</span>
+        <h3>
+          <a class="post-link" href="/2024/09/25/capitulo-01.html">
+            Capitulo 01
+          </a>
+        </h3></li><li><span class="post-meta">Sep 25, 2024</span>
+        <h3>
+          <a class="post-link" href="/2024/09/25/apresentacao.html">
+            Apresentacao
+          </a>
+        </h3></li></ul>
+
+    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Pense Como um Cientista de Dados</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Pense Como um Cientista de Dados</li><li><a class="u-email" href="mailto:penseemdados@gmail.com">penseemdados@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/penseemdados"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">penseemdados</span></a></li><li><a href="https://www.twitter.com/penseemdados"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">penseemdados</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Este site acompanha o livro &quot;Pense Como um Cientista de Dados - Modelos de Árvore e Otimização Bayesiana para Classificação Binária&quot;, com exemplos práticos aplicados ao mundo dos negócios.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
