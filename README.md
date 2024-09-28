@@ -62,6 +62,14 @@ Este repositório contém os exemplos práticos e *notebooks* que acompanham o l
 
 Se você deseja aprofundar seus conhecimentos e entender como aplicar esses conceitos a problemas reais, o livro está disponível para compra na **Amazon Kindle**. Ele oferece uma visão completa e didática sobre o uso de modelos de árvore e técnicas de otimização, com foco na resolução de desafios empresariais.
 
+## Demonstração do Livro: Apresentação e Capítulo 1
+
+Explore a introdução do livro e o Capítulo 1 completos para ter uma ideia clara do conteúdo do livro:
+
+[Apresentação](https://penseemdados.github.io/bayesian_optimization_algorithm_book/2024/09/25/apresentacao.html): Uma visão geral do livro, com explicações sobre o foco e a abordagem prática adotada.
+
+[Capítulo 1 - Desvendando o Algoritmo Original](https://penseemdados.github.io/bayesian_optimization_algorithm_book/2024/09/25/capitulo-01.html): O primeiro capítulo completo, que apresenta o trabalho do artigo científico que inspirou o livro, "Optimized Ensemble Learning Approach with Explainable AI for Improved Heart Disease Prediction". Aqui, exploramos a abordagem de Modelos de Árvore e Otimização Bayesiana para previsão de doenças cardíacas, mostrando como essas técnicas podem ser aplicadas de forma prática e eficiente.
+
 ### Caso em Destaque: Detecção de Fraude em Transações Financeiras
 Um dos pontos altos do livro é o estudo de caso sobre **detecção de fraude em transações financeiras**, inspirado em uma competição do [Kaggle](https://www.kaggle.com/c/ieee-fraud-detection/discussion/111284). Neste capítulo, mostramos como adaptar técnicas de **Otimização Bayesiana** e **Modelos de Árvore** para resolver um problema real enfrentado por empresas que lidam com milhões de transações diárias. O caso aborda desde o pré-processamento dos dados até a interpretação de modelos com **valores SHAP**, proporcionando uma solução prática, eficaz e explicável para a detecção de fraudes.
 
